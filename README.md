@@ -1,8 +1,6 @@
-## todo
+## known Issue
 
-- [ ] add pokemon evolution tree
-
-## known bug
+### Database entity indexing
 
 After saving PokemonType by PokemonTypeEntity to database, the PokemonType id always decrements by 1. However, if read back to application, the Pokemon has the correct type. This might due to enum class oridnal.
 
